@@ -1,6 +1,6 @@
 # ISS_data_analysis_project
-## About the reposotory
-This reposotory content 4 files for the project
+## About the repository
+This repository content 4 files for the project
  - app.py: this python file read in the data from the ISS data files downloaded from the website and analyze the data to output different data with user choice
  - pytest_app.py: this python file test the minimum functionalliy of the functions in app.py file
  - Makefile: this file create and build the docker image to the Dockerhub, and run the Dockerfile
@@ -80,7 +80,7 @@ The logging message is used in the read function in the app.py file and output a
 4. After the docker image pulled, the docker image can be run by code docker run --name "ISS_position_and_sighting_data_analysis_project" -d -p 5023:5000 <your Dockerhub username>/app:1.0`
 5. At the end, to stop running the docker image with code `docker container stop ISS_position_and_sighting_data_analysis_project` and to free the space with code `docker container rm ISS_position_and_sighting_data_analysis_project` which will stop and remove the container
 
- ## Unite test
+## Unite test
 The pytest/-app.py file is run with code `pytest pytest_app.py`. The expected ouput would be `3 passed` and the end which result the successful test ran with no error in the function of app.py file.
  
 ## Citation
